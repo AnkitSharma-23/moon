@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+.head {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.par {
+    max-width: 220px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.box {
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 15px;
+}
+.bg-color{
+    background-color:#1E1E1E ;
+}
+
+.col-hover:hover .box {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    backdrop-filter: blur(8px);
+    cursor: pointer;
+    scale: 1.1;
+}
+.col-hover:hover .moon {
+    display: block;
+}
+
+.moon {
+    display: none;
+}
+
+.clr-white {
+    color: #FFFFFF;
+}
+
+.head-2 {
+    width: 217px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 39.8571px;
+    text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.62);
+}
+
+.par-2 {
+    max-width: 290px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23.1087px;
+    color: rgba(255, 255, 255, 0.52);
+}
+
+.pos-absolute {
+    position: absolute;
+    top: -50px;
+    right: -48px;
+    
+}
+.cursor{
+ cursor: pointer;
+}
+
+.box-2 {
+    max-width: 421px;
+    background: linear-gradient(107.21deg, rgba(255, 255, 255, 0.26) 2.84%, rgba(255, 255, 255, 0.06) 73.23%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 24px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    border-radius: 7px;
+    border: 3px solid palevioletred;
+    animation-name: emample;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes emample {
+    0% {
+        border: 3px solid rgba(255, 125, 250, 0.56);
+    }
+
+    25% {
+        border: 3px solid rgba(253, 0, 243, 0.34);
+    }
+
+    75% {
+        border: 3px solid rgba(34, 162, 255, 0.35);
+    }
+
+    100% {
+        border: 3px solid rgba(34, 162, 255, 0.28);
+    }
+}
